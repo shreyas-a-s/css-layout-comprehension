@@ -29,6 +29,9 @@ img {
 nav {
   background-color: #000;
   padding: 0.5em;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 nav ul {
