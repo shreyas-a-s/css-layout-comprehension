@@ -21,6 +21,8 @@ img {
 }
 
 .grid {
+  display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   padding: 0 20px;
   max-width: 980px;
@@ -58,4 +60,19 @@ nav a {
   width: 200px;
   float: left;
   margin: 0 1rem 1rem 0;
+}
+
+article {
+  flex: 1;
+  margin-right: 20px;
+}
+
+aside {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    flex-direction: column;
+  }
 }
